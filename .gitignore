@@ -1,0 +1,57 @@
+# =============================================
+# .gitignore RAÍZ del monorepo CLOT
+# =============================================
+
+# Variables de entorno — NUNCA subir a GitHub
+.env
+.env.local
+.env.*.local
+*.local
+
+# Dependencias
+node_modules/
+
+# Builds
+dist/
+dist-ssr/
+build/
+
+# Firebase
+.firebase/
+.firebaserc
+
+# Android — rutas locales
+**/android/local.properties
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+
+# APK / binarios compilados
+*.apk
+*.aab
+*.ipa
+
+# Capacitor — assets compilados (se regeneran con `npx cap sync`)
+**/android/app/src/main/assets/public/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*

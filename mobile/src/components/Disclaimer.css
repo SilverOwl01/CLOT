@@ -1,0 +1,159 @@
+/* El fondo que bloquea la app */
+.clot-overlay {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+  background: rgba(15, 23, 42, 0.95);
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  z-index: 10000; 
+  padding: 15px;
+  overflow-y: auto; 
+}
+
+/* El cuadro del mensaje */
+.clot-modal {
+  background: white; 
+  border-radius: 20px; 
+  max-width: 480px; /* Un poco más ancho para el nuevo texto */
+  width: 100%;
+  padding: 25px; 
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.clot-modal-header h2 {
+  margin: 0 0 15px 0; 
+  color: #1e293b; 
+  font-size: 1.2rem; 
+  text-align: center;
+  font-weight: 700;
+}
+
+/* CUERPO CON SCROLL: Importante para el texto largo */
+.clot-modal-body {
+  font-size: 0.9rem; 
+  color: #475569; 
+  line-height: 1.5; 
+  text-align: justify;
+  max-height: 55vh; /* Limita la altura al 55% de la pantalla */
+  overflow-y: auto;
+  padding-right: 12px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para las nuevas secciones numeradas */
+.disclaimer-section {
+  margin-bottom: 20px;
+}
+
+.disclaimer-section h3 {
+  font-size: 0.95rem;
+  color: #1e293b;
+  margin-bottom: 6px;
+  font-weight: 700;
+  border-bottom: 1px solid #f1f5f9;
+  padding-bottom: 2px;
+}
+
+.disclaimer-section p {
+  margin: 0 0 8px 0;
+}
+
+/* Caja de alerta para Urgencias (Resaltada) */
+.emergency-box {
+  background: #fff1f2; 
+  border-left: 4px solid #ef4444;
+  padding: 12px; 
+  margin: 15px 0; 
+  color: #991b1b; 
+  border-radius: 6px;
+}
+
+.emergency-box h3 {
+  color: #991b1b;
+  margin-top: 0;
+  font-size: 0.95rem;
+}
+
+.small-text {
+  font-size: 0.8rem;
+  line-height: 1.3;
+  display: block;
+  margin-top: 5px;
+  opacity: 0.8;
+}
+
+.legal-footer {
+  font-size: 0.8rem; 
+  border-top: 1px solid #e2e8f0; 
+  padding-top: 15px; 
+  font-style: italic;
+  color: #64748b;
+}
+
+/* Footer del modal (Checkbox + Botón) */
+.clot-modal-footer {
+  padding-top: 10px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.checkbox-container {
+  display: flex; 
+  align-items: flex-start; 
+  gap: 12px; 
+  cursor: pointer;
+  font-size: 0.85rem; 
+  margin: 15px 0; 
+  color: #1e293b; 
+  font-weight: 600;
+  user-select: none;
+}
+
+.checkbox-container input {
+  min-width: 18px;
+  min-height: 18px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.accept-button {
+  width: 100%; 
+  background: #2563eb; 
+  color: white; 
+  border: none;
+  padding: 14px; 
+  border-radius: 12px; 
+  font-weight: 600; 
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 1rem;
+}
+
+.accept-button:active:not(.disabled) {
+  transform: scale(0.97);
+}
+
+.accept-button.disabled {
+  background: #cbd5e1; 
+  color: #94a3b8;
+  cursor: not-allowed;
+}
+
+/* Personalización básica del scroll para Android */
+.clot-modal-body::-webkit-scrollbar {
+  width: 5px;
+}
+.clot-modal-body::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+.clot-modal-body::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}

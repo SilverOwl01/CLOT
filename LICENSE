@@ -1,0 +1,80 @@
+LICENCIA PROPIETARIA CON CLÁUSULA COMERCIAL
+CLOT — Sistema de Monitoreo de Anticoagulación Oral
+
+Copyright (c) 2026 Enrique Aguilar
+Todos los derechos reservados.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. DEFINICIONES
+
+"Software" se refiere a todo el código fuente, documentación, algoritmos,
+modelos clínicos, interfaces de usuario y cualquier componente incluido en
+este repositorio, incluyendo los proyectos CLOT Dashboard y CLOT App Móvil.
+
+"Uso No Comercial" significa uso exclusivamente con fines de investigación
+académica, educación o evaluación personal, sin obtener beneficio económico
+directo o indirecto.
+
+"Uso Comercial" significa cualquier uso del Software, en todo o en parte,
+con fines de lucro, incluyendo pero no limitado a: integración en productos
+o servicios de pago, uso en entornos clínicos con fines de negocio, licencia
+a terceros, o cualquier actividad que genere ingresos.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2. PERMISOS DE USO NO COMERCIAL
+
+Se otorga permiso, de forma gratuita, para:
+  a) Ver, estudiar y descargar el código con fines académicos o educativos.
+  b) Modificar el Software para uso de investigación personal o académica.
+  c) Citar este Software en publicaciones académicas, siempre con atribución.
+
+Condición obligatoria: Cualquier uso, publicación, presentación o trabajo
+derivado que utilice este Software o sus algoritmos debe incluir la siguiente
+atribución de forma visible:
+
+    "CLOT — Sistema de Monitoreo de Anticoagulación Oral,
+     desarrollado por Enrique Aguilar (2026).
+     Disponible en: https://github.com/SilverOwl01/CLOT"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3. USO COMERCIAL — REQUIERE AUTORIZACIÓN Y ACUERDO DE PAGO
+
+Queda ESTRICTAMENTE PROHIBIDO el Uso Comercial de este Software sin un
+acuerdo escrito previo firmado con el autor.
+
+Para solicitar una licencia comercial, contactar a:
+  Enrique Aguilar
+  enaguilarc@outlook.com
+
+El uso comercial sin autorización constituye una infracción de los derechos
+de autor y estará sujeto a las acciones legales correspondientes.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4. RESTRICCIONES
+
+Queda prohibido, sin autorización escrita del autor:
+  a) Redistribuir o publicar el Software o trabajos derivados con fines
+     comerciales.
+  b) Sublicenciar, vender o transferir derechos sobre el Software.
+  c) Eliminar o modificar este aviso de licencia en cualquier copia o
+     parte del Software.
+  d) Usar el nombre del autor o del proyecto para promocionar productos
+     derivados sin autorización expresa.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5. SIN GARANTÍAS
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO,
+EXPRESA O IMPLÍCITA. EL USO CLÍNICO DE ESTE SOFTWARE ES RESPONSABILIDAD
+EXCLUSIVA DEL USUARIO. EL AUTOR NO SERÁ RESPONSABLE DE NINGÚN DAÑO
+DERIVADO DEL USO O LA IMPOSIBILIDAD DE USO DEL SOFTWARE.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Para cualquier consulta sobre licenciamiento:
+  enaguilarc@outlook.com

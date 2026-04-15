@@ -1,5 +1,7 @@
 # CLOT — Sistema de Monitoreo de Anticoagulación
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19583210.svg)](https://doi.org/10.5281/zenodo.19583210)
+
 Sistema digital para el seguimiento clínico de pacientes en terapia anticoagulante oral (TAO).
 
 ## Estructura del repositorio
